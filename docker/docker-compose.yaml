@@ -1,0 +1,9 @@
+version: "2.1"
+services:
+  rabbitmq:
+    image: bitnami/rabbitmq:latest
+    environment:
+     RABBITMQ_USERNAME: user
+     RABBITMQ_PASSWORD: SilverLight
+    ports:
+     - 15672:15672
